@@ -48,10 +48,10 @@ hal yang dapat dilakukan pada dataset tersebut:
 ![colsplit](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/colsplit.png "colsplit")<br/>
 
 - Keempat, klik kanan pada node column splitter lalu buka settings.<br/>
-![colsplitset](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/colsplitset.png "colsplitset")<br/>
+![colsplitset](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/colsplitset.jpg "colsplitset")<br/>
   -2 hasil splitter<br/>
-      ![colsplit1](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/colsplit1.png "colsplit1")<br/>    
-      ![colsplit2](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/colsplit2.png "colsplit2")<br/>
+      ![colsplit1](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/colsplit1.jpg "colsplit1")<br/>    
+      ![colsplit2](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/colsplit2.jpg "colsplit2")<br/>
  
 -Kelima, simpan salah satu bagian data di database, dan satu bagian lagi di file csv dengan cara:<br/>
  -Database:
@@ -61,14 +61,14 @@ hal yang dapat dilakukan pada dataset tersebut:
   -Ambil node DB Writer, lalu hubungkan dengan MySQL Connector dan node Column splitter<br/>
     ![dbwrite](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/dbwrite.png "dbwrite")<br/>
   -Konfigurasi node DB Writer lalu klik ok <br/>
-    ![dbwriteset](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/dbwriteset.png "dbwriteset")<br/>
+    ![dbwriteset](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/dbwriteset.jpg "dbwriteset")<br/>
   -Tabel baru sudah ada di phpmyadmin<br/>
-    ![phpadmin](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/phpadmin.png "phpadmin")<br/>
+    ![phpadmin](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/phpadmin.jpg "phpadmin")<br/>
  -CSV:
   -Gunakan node CSV Writer<br/>
     ![csvwrite](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/csvwrite.png "csvwrite")<br/>
   -lalu klik kanan untuk melakukan konfigurasi<br/>
-    ![csvwriteset](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/csvwriteset.png "csvwriteset")<br/>
+    ![csvwriteset](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/csvwriteset.jpg "csvwriteset")<br/>
   -Pilih output location lalu klik ok, lalu execute<br/>
 
 
@@ -78,7 +78,7 @@ hal yang dapat dilakukan pada dataset tersebut:
 - yang pertama membaca data dari mysql, dengan menggunakan mysql connector nodes dari knime<br/>
  ![sqlconn](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/sqlconn.png "sqlconn")<br/>
 - data di mysql seperti dibawah<br/>
- ![phpadmin](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/phpadmin.png "phpadmin")<br/>
+ ![phpadmin](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/phpadmin.jpg "phpadmin")<br/>
 - melakukan configurasi disesuaikan dengan mysql yang ada di phpmyadmin, mulai dari database, port dari localhost dan username.<br/>
  ![sqlconnset](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/sqlconnset.png "sqlconnset")<br/>
 - db table selector untuk mengambil Koneksi DB sebagai input dan memungkinkan untuk memilih tabel atau tampilan dari dalam database yang terhubung.<br/>
@@ -86,13 +86,13 @@ hal yang dapat dilakukan pada dataset tersebut:
 - db reader untuk Mengeksekusi kueri input dalam database dan mengambil hasilnya ke dalam tabel data KNIME.<br/>
  ![dbread](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/dbread.png "dbread")<br/>
 - hasil akhir dari pembacaan database yang terhubung dari mysql<br/>
- ![dbreadnew](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/dbreadnew.png "dbreadnew")<br/>
+ ![dbreadnew](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/dbreadnew.jpg "dbreadnew")<br/>
 
 #### Proses membaca dari csv
 - memasang csv reader untuk membaca file csv<br/>
  ![fileread](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/fileread.png "fileread")<br/>
 - melakukan konfigurasi , menentukan path file dimana csv disimpan<br/>
- ![filereadfind](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/filereadfind.png "filereadfind")<br/>
+ ![filereadfind](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/filereadfind.jpg "filereadfind")<br/>
 
 
 ### Proses Modeling
@@ -105,7 +105,7 @@ hal yang dapat dilakukan pada dataset tersebut:
 - menggunakan column filter untuk menentukan column mana yang mau ditampilkan<br/>
  ![alt text](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/colfilt.png "colfilt" ) <br/>
 - hasil akhir<br/>
- ![colfiltres](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/colfiltres.png "colfiltres")<br/>
+ ![colfiltres](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/colfiltres.jpg "colfiltres")<br/>
 
 
 # Evaluation
@@ -126,7 +126,7 @@ hal yang dapat dilakukan pada dataset tersebut:
 ![csvwrite](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/csvwrite.png "csvwrite")<br/>
 
 - memilih penempatan dan konfigurasi lain nya
-![csvwritefinale](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/csvwritefinale.png "csvwritefinale")<br/>
+![csvwritefinale](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/csvwritefinale.jpg "csvwritefinale")<br/>
  
 - data berhasil tersimpan
 
@@ -136,15 +136,15 @@ hal yang dapat dilakukan pada dataset tersebut:
 ![dbwrite](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/dbwrite.png "dbwrite")<br/>
 
 - memilih konfigurasi lain nya, seperti nama dan db yang dituju<br/>
-![dbwritefinale](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/dbwritefinale.png "dbwritefinale")<br/>
+![dbwritefinale](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/dbwritefinale.jpg "dbwritefinale")<br/>
 
 - berhasil tersimpan<br/>
-![phpadmfinale](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/phpadmfinale.png "phpadmfinale")<br/>
+![phpadmfinale](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/phpadmfinale.jpg "phpadmfinale")<br/>
 
  ### gambar knime secara lengkap
 -Preparation Phase<br/>
 ![prep](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/prep.png "prep")<br/>
 -Modelling Phase<br/>
-![schemefinale](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/schemefinale.png "schemefinale")<br/>
+![schemefinale](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/schemefinale.jpg "schemefinale")<br/>
 
 
