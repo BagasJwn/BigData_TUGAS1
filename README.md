@@ -42,7 +42,7 @@ hal yang dapat dilakukan pada dataset tersebut:
 ![file read](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/fileread.png "fileread")<br/>
 
 - Kedua, klik kanan lalu buka settings dan "browse file .csv yang ingin digunakan, lalu klik ok<br/>
-![filereadfind](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/filereadfind.png "filereadfind")<br/>
+![filereadfind](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/filereadfind.jpg "filereadfind")<br/>
 
 - Ketiga, Drag node column splitter kedalam workflow, lalu hubungkan dengan node file reader<br/>
 ![colsplit](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/colsplit.png "colsplit")<br/>
@@ -145,6 +145,6 @@ hal yang dapat dilakukan pada dataset tersebut:
 -Preparation Phase<br/>
 ![prep](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/prep.png "prep")<br/>
 -Modelling Phase<br/>
-![schemefinale](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/schemefinale.jpg "schemefinale")<br/>
+![schemefinale](https://github.com/BagasJwn/BigData_Tugas1/blob/master/dokumentasi/ssimg/schemefinale.png "schemefinale")<br/>
 
 
